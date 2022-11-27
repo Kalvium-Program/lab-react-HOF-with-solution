@@ -1,5 +1,7 @@
-describe("Create an addition operation for the special calculator",function(){
+import HigherOrderComponent from "../HigherOrderComponent"
 
+describe("testing",function(){
+  const val = new HigherOrderComponent();
   it("Defines specialAddition", function(){
-    expect(typeof specialAddition).toBe("function");
+   expect(val.renderItems).toEqual(expect.any(Function));
   });})

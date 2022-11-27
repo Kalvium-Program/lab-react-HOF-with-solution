@@ -17,7 +17,7 @@ class HigherOrderComponent extends Component{
   }
   
   // Progression 2: List all the items
-  renderItems = () => {
+  renderItems(){
 
     const data = this.state.userData;
     const mapRows = data.map((item) => (
@@ -153,6 +153,11 @@ render() {
 
 
 
+}
+
+
+function demo(){
+  return "something";
 }
 
 export default HigherOrderComponent;
